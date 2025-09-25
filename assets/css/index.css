@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url("assets/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+
+body{
+    background-color: #2C2F36;
+}
+
+
+.logo{
+    float: left;
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+
+#search{
+    float: left;
+    margin-top: 2.8%;
+    margin-left: 4%;
+
+
+}
+header input{
+    font-size: 18px;
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #2C2F36;
+    border-right: none !important;
+}
+
+.login{
+    float: right;
+    background-color: rgb(0,191,203);
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 5%;
+    margin-top: 1.9%;
+    font-size: 16px;
+}
+
+.l{
+    text-decoration: none;
+    color: black;
+    font-family: 'montserrat', sans-serif;
+}
+
+.support{
+    float: right;
+    background-color: rgb(0,191,203);
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 2%;
+    margin-top: 1.9%;
+    font-size: 16px;
+}
+
+.s{
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#p_footer{
+    clear: both;
+    font-family: 'montserrat', sans-serif;
+    color: #cccccc;
+    width: 60%;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+#nav-header{
+    clear: both;
+    float: left;
+    margin-top: 2%;
+}
+
+#nav-footer{
+    float: left;
+    margin-top: 2%;
+}
+
+
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 30px;
+}
+
+footer nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+
+nav ul li a {
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+hr{clear: both}
+
+h5{
+    clear: both;
+    font-family: 'montserrat', sans-serif;
+    color: #cccccc;
+    font-size: 19px;
+    margin-left: 3%;
+}
+
+
+/*=====================================================================*/
+
+.poster-1{
+    float: left;
+    border: 1px solid #2C2F36;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.poster-1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 3s;
+}
+
+
+h2{
+    clear: both;
+    float: left;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(0,191,203);
+    margin-top: 5%;
+    margin-left: 1.5%;
+}
+
+.more{
+    margin-top: 5%;
+    float: right;
+    font-family: 'montserrat', sans-serif;
+    color: rgb(0,191,203);
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 5%;
+}
+
+.products{
+    clear: both;
+    float: left;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    text-decoration: none;
+    background-image: url("../images/login-bg.png");
+}
+
+.product-pic{
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.product-name{
+    text-decoration: none;
+    color: white;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+.product{
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+}
+
+p span{color: darkred;}
+
+
+.products_1{
+    float: left;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+    text-decoration: none;
+    background-image: url("../images/login-bg.png");
+}
+
+.tst{
+    float: right;
+    background-color: white;
+    height: 40px;
+    width: 30px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #2C2F36;
+    border-left: none;
+    padding-top: 2%;
+    color : #ccc
+}
+

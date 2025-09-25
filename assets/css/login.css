@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url("assets/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+
+body {
+    background-color: #2C2F36;
+}
+.form{
+    height: 500px;
+    margin: 100px auto;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-image: url("../images/login-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#username{
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+}
+
+h2{
+    font-family: 'montserrat',sans-serif;
+}
+
+.password{
+    margin-top: 30px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+}
+button{
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+}
+
+#link{
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    float : left;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#register{
+    float: left;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    clear: both;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+p span{
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+#login-page{
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    clear: both;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+

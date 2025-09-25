@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url("assets/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+
+body{
+    background-color: #2C2F36;
+}
+
+
+.logo{
+    float: left;
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+
+#search{
+    float: left;
+    margin-top: 2.8%;
+    margin-left: 4%;
+
+
+}
+header input{
+    font-size: 18px;
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+}
+
+.login{
+    float: right;
+    background-color: rgb(0,191,203);
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 5%;
+    margin-top: 1.9%;
+    font-size: 16px;
+}
+
+.l{
+    text-decoration: none;
+    color: black;
+    font-family: 'montserrat', sans-serif;
+}
+
+.support{
+    float: right;
+    background-color: rgb(0,191,203);
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 2%;
+    margin-top: 1.9%;
+    font-size: 16px;
+}
+
+.s{
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#p_footer{
+    clear: both;
+    font-family: 'montserrat', sans-serif;
+    color: #cccccc;
+    width: 60%;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+#nav-header{
+    clear: both;
+    float: left;
+    margin-top: 2%;
+}
+
+#nav-footer{
+    float: left;
+    margin-top: 2%;
+}
+
+
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 30px;
+}
+
+footer nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+
+
+nav ul li a {
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+hr{clear: both}
+
+h5{
+    clear: both;
+    font-family: 'montserrat', sans-serif;
+    color: #cccccc;
+    font-size: 19px;
+    margin-left: 3%;
+}
+
+/*================================================================*/
+
+h1{
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+h2{
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+h2 span{
+    color: rgb(0,191,203);
+}
+
+#content{
+    float: left;
+    margin-left: 20px;
+    margin-top: 1%;
+    width: 34%;
+}
+
+#poster{
+    float: left;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+
+
+h4{
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    margin-left: 5%;
+}
+
+.description{
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    margin-left: 5%;
+}
+
+#available{
+    font-family: 'montserrat', sans-serif;
+    color: rgb(0,191,203);
+    margin-left: 20px;
+    margin-top: 5%;
+
+}
+
+fieldset{
+    background-image: url("../images/login-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.span-1{
+    float: left;
+    font-family: 'montserrat', sans-serif;
+    color: black;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3%;
+    background-color: rgb(0,191,203);
+
+}
+
+.span-2{
+    font-family: 'montserrat', sans-serif;
+    color: rgb(0,191,203);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2.5%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.span-2:hover{
+    background-color: rgb(0,191,203);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+video{
+    width: 50%;
+    border-radius: 50px;
+    margin-left: 25%;
+
+}
+
+
+#photos{
+    float: left;
+    width: 20.4%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0,191,203);
+    height: 580px;
+    margin-left: 5%;
+}
+
+#photo-1{
+    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(0,191,203);
+    width: 48.95%;
+    height: 20%;
+}
+
+#photo-2{
+    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(0,191,203);
+    width: 48.95%;
+    height: 20%;
+}
+
+#photo-3{
+    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(0,191,203);
+    width: 99%;
+    height: 28.9%;
+}
+
+#photo-4{
+    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(0,191,203);
+    width: 99%;
+    height: 28.9%;
+}
+
+#photo-5{
+    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(0,191,203);
+    width: 48.95%;
+    height: 20%;
+}
+
+#photo-6{    float: left;
+    border-radius: 5px;
+    border: 2px solid rgb(0,191,203);
+    width: 48.95%;
+    height: 20%;
+}
+
+.gif{
+    float: left;
+    width: 30%;
+    margin: 1.64%;
+    border-radius: 30px;
+}
+
+#user-name{
+    font-family: 'montserrat', sans-serif;
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(0,191,203);
+}
+
+#comments{
+    float: left;
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    height: 120px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#submit{
+    float: left;
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    margin-left: 5%;
+}
+
+.other-comments{
+    float: left;
+    background-color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2C2F36;
+    margin: 1.5%;
+}
+
+.p1{
+    color: rgb(0,191,203);
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+
